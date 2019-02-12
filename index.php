@@ -20,10 +20,17 @@ $sql = new Sql();
 // $buscar = json_encode($buscar);
 // echo $buscar;
 
-$carregarUsuario = new Usuario();
-$carregarUsuario->login("Leticia",123);
+// $carregarUsuario = new Usuario();
+// $carregarUsuario->login("Leticia",123);
 
-echo $carregarUsuario;
+// echo $carregarUsuario;
+
+// $aluno = new Usuario();
+// $aluno->setDeslogin("Aluno");
+// $aluno->setDessenha("#$123");
+// $aluno->insert();
+
+// echo $aluno;
 
 
 ?>
