@@ -7,10 +7,23 @@ $sql = new Sql();
 // var_dump($usuarios);
 
 
-$usuario = new Usuario();
-$usuario->loadById(1);
+// $usuario = new Usuario();
+// $usuario->loadById(1);
 
-echo $usuario;
+// echo $usuario;
+
+
+// $lista = Usuario::getList();
+// echo $lista = json_encode($lista);
+
+// $buscar = Usuario::search("An");
+// $buscar = json_encode($buscar);
+// echo $buscar;
+
+$carregarUsuario = new Usuario();
+$carregarUsuario->login("Leticia",123);
+
+echo $carregarUsuario;
 
 
 ?>
