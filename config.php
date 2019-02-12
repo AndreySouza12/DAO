@@ -8,6 +8,4 @@ spl_autoload_register(function($nomeClasse){
         require_once($filename);
     }
 });
-
-
 ?>
